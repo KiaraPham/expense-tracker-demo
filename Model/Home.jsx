@@ -7,7 +7,6 @@ import {
   View,
 } from "react-native";
 import React, { useState } from "react";
-import userimg from "../assets/user.jpg";
 import bell from "../assets/bell.png";
 import send from "../assets/send.png";
 import rec from "../assets/rec.png";
@@ -107,7 +106,7 @@ const Home = () => {
     <View style={styles.home}>
       <View style={styles.TopBar}>
         <View style={{ flexDirection: "row", alignItems: "center" }}>
-          <Image style={styles.UserImg} source={userimg} />
+          <Image style={styles.UserImg} source={a1} />
           <View>
             <Text style={styles.GreetMsg}>Good Morning</Text>
             <Text style={styles.UserName}>James Smith</Text>
